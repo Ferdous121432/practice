@@ -66,4 +66,5 @@ class PdfReport:
 
         pdf.output(f'pdf/{self.filename}')
         webbrowser.open(
-            f'F:/Dev/python/practice/App-2-Flatmates-Bill/pdf/{self.filename}')
+            f'pdf/{self.filename}')
+        # f'F:/Dev/python/practice/App-2-Flatmates-Bill/pdf/{self.filename}'
