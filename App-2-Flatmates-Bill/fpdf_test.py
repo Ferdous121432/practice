@@ -47,5 +47,5 @@ for row in data:
                  f'{item}', border=1, align='C')
     pdf.ln(row_height)
 pdf.output('pdf/hello-qq.pdf')
-webbrowser.open('F:/Dev/python/practice/App-2-Flatmates-Bill/pdf/hello-qq.pdf')
+webbrowser.open('./pdf/hello-qq.pdf')
 print("PDF generated successfully: pdf/hello-qq.pdf")
